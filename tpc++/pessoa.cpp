@@ -21,5 +21,5 @@ void Pessoa::exibirDados()
 {
 
     std::cout << "nome: " << nome << "\n"
-              << "trabalho" << trabalho << "\n";
+              << "trabalho: " << trabalho << "\n";
 }

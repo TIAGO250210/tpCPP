@@ -14,7 +14,7 @@ public:
     std::string trabalho;
 
     Pessoa(std::string nome, std::string trabalho, std::string login, std::string senha);
-    ~Pessoa();
+    ~Pessoa(){}
 
     void exibirDados();
 
