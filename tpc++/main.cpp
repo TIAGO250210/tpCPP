@@ -1,9 +1,11 @@
 
-#include"pessoa.hpp"
+#include "pessoa.hpp"
+#include "menu.hpp"
 
-int main(){
+int main()
+{
+    Menu* menu = new Menu;
+
+    menu->exibirMenu();
     return 0;
-
-
-    
 }
