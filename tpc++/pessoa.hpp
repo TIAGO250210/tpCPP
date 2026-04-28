@@ -8,15 +8,16 @@ class Pessoa
 private:
     std::string login;
     std::string senha;
-
-public:
     std::string nome;
     std::string trabalho;
 
+
+public:
+    
     Pessoa(std::string nome, std::string trabalho, std::string login, std::string senha);
     ~Pessoa(){}
 
-    void exibirDados();
+    virtual void exibirDados();
 
     void setTrabalho(std::string trabalho);
     std::string getTrabalho() const;
